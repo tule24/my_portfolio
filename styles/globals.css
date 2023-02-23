@@ -14,9 +14,7 @@ body {
   max-width: 100vw;
   overflow-x: hidden;
   font-family: 'Poppins', sans-serif;
-  background-image: url('../img/bg.jpg');
   scroll-behavior: smooth;
-  transition: all 1s ease-in-out;
 }
 
 .ribbon {
@@ -58,4 +56,28 @@ body {
   left: -0.313em;
   border-radius: 0.313em 0 0 0.313em;
   box-shadow: inset -1px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+.shadow-1 {
+  box-shadow: .3rem .5rem 1rem rgba(0,0,0,.1), -1rem -.5rem 1rem rgba(255, 255, 255, 0.4);
+}
+
+.shadow-2 {
+  box-shadow: inset -5px -5px 10px rgba(255, 255, 255, 0.5),
+    inset 5px 5px 10px rgba(70, 70, 70, 0.12);
+}
+
+.shadow-3 {
+  box-shadow: -5px -5px 8px rgba(70, 70, 70, 0.12),
+    5px 5px 8px rgba(255, 255, 255, 0.5) ;
+}
+
+.shadow-4 {
+  box-shadow:  -5px 5px 10px rgba(255,255,255, .5),
+  5px -5px 10px rgba(70, 70, 70, 0.12);
+}
+
+.shadow-5 {
+  box-shadow: inset -10px -10px 10px rgba(255, 255, 255, 0.5),
+    inset 10px 10px 10px rgba(70, 70, 70, 0.12);
 }
