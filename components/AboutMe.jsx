@@ -6,9 +6,8 @@ const AboutMe = () => {
       <div className='flex items-center'>
         <h1 className='ribbon'>About Me</h1>
       </div>
-      <div>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus ratione nostrum accusamus, alias soluta voluptas velit quasi delectus nisi mollitia iure modi veniam maiores minus dolores ipsam vitae qui asperiores!
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis ab aperiam, repellat deleniti veniam quaerat temporibus odit assumenda, fugiat inventore ipsa ipsam tenetur eum similique cumque iste nesciunt? Minus, ad!
+      <div className='px-5 pt-5 text-justify text-slate-900 dark:text-[rgb(166,166,166)] tracking-wider'>
+        <p>My name is Cong Tu. I live in Ho Chi Minh City. I'm currently pursuing a career as a Web3 developer. With 2 years of experience working for a technology start-up, I believe that my knowledge and experience will will be very valuable to the business. I'm a progressive man, I have the ability to self-study and research new technology. I'm hoping to land a job that will allow me to reach my full potential.</p>
       </div>
     </div>
   )

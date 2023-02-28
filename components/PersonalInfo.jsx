@@ -14,10 +14,10 @@ const PersonalInfo = () => {
           <h1 className='text-2xl font-semibold my-2'>LE CONG TU</h1>
           <button className='rounded-lg px-3 py-2 shadow-2 dark:shadow-none dark:bg-[#1d1d1d] tracking-widest cursor-auto font-semibold'>Web3 Developer</button>
           <div className='flex items-center justify-center mt-5'>
-            <button className='p-3 shadow-3 dark:shadow-none dark:bg-[#1d1d1d] dark:text-white dark:hover:bg-slate-200 dark:hover:text-[rgb(66,103,178)] hover:shadow-none rounded-lg text-[rgb(66,103,178)] transition-all duration-200 mr-5'><FaFacebookF /></button>
-            <button className='p-3 shadow-3 dark:shadow-none dark:bg-[#1d1d1d] dark:text-white dark:hover:bg-slate-200 dark:hover:text-red-500 hover:shadow-none rounded-lg text-red-500 transition-all duration-100 mr-5'><FaYoutube /></button>
-            <button className='p-3 shadow-3 dark:shadow-none dark:bg-[#1d1d1d] dark:text-white dark:hover:bg-slate-200 dark:hover:text-[rgb(0,119,181)] hover:shadow-none rounded-lg text-[rgb(0,119,181)] transition-all duration-100 mr-5'><FaLinkedinIn /></button>
-            <button className='p-3 shadow-3 dark:shadow-none dark:bg-[#1d1d1d] dark:text-white dark:hover:bg-slate-200 dark:hover:text-black hover:shadow-none rounded-lg text-black transition-all duration-100'><FaGithub /></button>
+            <a href='https://www.facebook.com/profile.php?id=100009679218471' target='_blank' className='p-3 shadow-3 dark:shadow-none dark:bg-[#1d1d1d] dark:text-white dark:hover:bg-slate-200 dark:hover:text-[rgb(66,103,178)] hover:shadow-none rounded-lg text-[rgb(66,103,178)] transition-all duration-200 mr-5'><FaFacebookF /></a>
+            <a href='https://www.youtube.com/@tuleWeb3' target='_blank' className='p-3 shadow-3 dark:shadow-none dark:bg-[#1d1d1d] dark:text-white dark:hover:bg-slate-200 dark:hover:text-red-500 hover:shadow-none rounded-lg text-red-500 transition-all duration-100 mr-5'><FaYoutube /></a>
+            <a href='https://www.linkedin.com/in/tu-le-web3/' target='_blank' className='p-3 shadow-3 dark:shadow-none dark:bg-[#1d1d1d] dark:text-white dark:hover:bg-slate-200 dark:hover:text-[rgb(0,119,181)] hover:shadow-none rounded-lg text-[rgb(0,119,181)] transition-all duration-100 mr-5'><FaLinkedinIn /></a>
+            <a href='https://github.com/tule24' target='_blank' className='p-3 shadow-3 dark:shadow-none dark:bg-[#1d1d1d] dark:text-white dark:hover:bg-slate-200 dark:hover:text-black hover:shadow-none rounded-lg text-black transition-all duration-100'><FaGithub /></a>
           </div>
           <div className='shadow-4 dark:shadow-none dark:bg-[#1d1d1d] mt-8 w-4/5 mx-auto p-2 rounded-lg'>
             {/* {border-gray-100/60 } */}
