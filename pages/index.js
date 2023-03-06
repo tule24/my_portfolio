@@ -5,6 +5,8 @@ export default function Home() {
     <>
       <Head>
         <title>CongTu Portfolio</title>
+        <meta name='description' content='CongTu Portfolio' />
+        <link rel='icon' href='/favicon.ico'/>
       </Head>
       <div className='w-full bg-opacity-90 flex max-[769px]:flex-col bg-gray-300 dark:bg-slate-800'>
         <PersonalInfo />
