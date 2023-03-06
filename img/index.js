@@ -13,7 +13,9 @@ import nft from './nft.png'
 import wallet from './wallet.png'
 import ecommerce from './ecommerce.png'
 import portfolio from './portfolio.png'
+import redux from './redux.svg'
 export default {
+    redux,
     ecommerce,
     portfolio,
     wallet,

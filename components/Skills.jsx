@@ -34,6 +34,11 @@ const TECHS = [
     style: 'shadow-green-500'
   },
   {
+    src: images.redux,
+    title: 'Redux',
+    style: 'shadow-violet-500'
+  },
+  {
     src: images.express,
     title: 'ExpressJS',
     style: 'shadow-zinc-600'
